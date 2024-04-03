@@ -1,0 +1,45 @@
+body{
+      background-color: gray;
+}
+h1{
+    text-align: center;
+    background-color: #ab47bc;
+
+}
+h1:hover{
+    cursor: pointer;
+    background-color:#e91e63;
+}
+h3{
+    background-color: #1a237e;
+
+}
+h3:hover{
+    cursor:pointer;
+    background-color:red;
+}
+
+h5{
+    background-color: #64dd17;
+}
+h5:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+ul#navbar li{
+   list-style-type: none;
+   display:inline-block;
+   background-color: #ab47bc;
+   margin: 45px;
+   
+}
+
+
+ul#navbar li:hover{
+    color: red;
+}
+
+
+
+
