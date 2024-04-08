@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.css">
+    <script src="./javascript/script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    
+        <div class="container text-center text-primary"> 
+            <h1>
+                Learn to make a Calculator 
+            </h1>
+        </div>
+
+        
+        <div class="container text-center px-5 ">
+          <input type="text" id="result" >
+        </div>
+
+        <div class="container mt-3   d-flex flex-wrap gap-2 col-3  ">
+              
+           <button value="1" class="btn btn-lg btn-outline-primary btn-lg" onclick="addtoResult(1)">1</button>
+           <button value="2" class="btn btn-outline-primary btn-lg" onclick="addtoResult(2)" >2</button>
+           <button value="3" class="btn btn-lg btn-outline-primary btn-lg"onclick="addtoResult(3)" >3</button>
+           <button value="4" class="btn btn-outline-primary btn-lg" onclick="addtoResult(4)">4</button>
+           <button value="5" class="btn btn-lg btn-outline-primary" onclick="addtoResult(5)" >5</button>
+           <button value="6" class="btn btn-outline-primary btn-lg" onclick="addtoResult(6)" >6</button>
+           <button value="7" class="btn btn-lg btn-outline-primary" onclick="addtoResult(7)">7</button>
+           <button value="8" class="btn btn-outline-primary btn-lg" onclick="addtoResult(8)">8</button>
+           <button value="9" class="btn btn-lg btn-outline-primary" onclick="addtoResult(9)">9</button>
+           <button value="+" class="btn btn-outline-primary btn-lg" onclick="addtoResult('+')">+</button>
+           <button value="." class="btn btn-outline-primary btn-lg" onclick="addtoResult('.')">.</button>
+           
+           <button value="-" class="btn btn-lg btn-outline-primary" onclick="addtoResult('-')">-</button>
+           <button value="%" class="btn btn-outline-primary btn-lg" onclick="addtoResult('%')">%</button>
+           <button value="*" class="btn btn-lg btn-outline-primary" onclick="addtoResult('*')">*</button>
+           <button class="btn btn-outline-dark btn-lg" onclick="calculateResult()"> =</button>
+           <button  class="btn btn-outline-dark btn-lg" onclick="clearResult()"> AC</button>
+
+        </div>
+    </div>
+
+    <script src="./javascript/script.js"></script>
+
+</body>
+</html>
